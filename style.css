@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    font-size: 16px;
+}
+nav
+{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+nav a span
+{
+    color: #ff9900;
+}
+nav a 
+{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+}
+nav ul
+{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navTitle
+{
+    color: gray;
+    font-size: 1em;
+    font-weight: normal;
+}
+.firstContainer
+{
+    background-color: lightgrey;
+    
+}
+.firstContainer p
+{
+    color: gray;
+    margin: 0;
+}
+.firstContainer h1
+{
+    font-size: 4em;
+    margin: 200px 0px 20px;
+    font-weight: lighter;
+}   
+.firstColumnWrap
+{
+    display: flex;
+    flex-direction: column;
+}
+.flexingBox
+{
+    display: flex;
+    justify-content: space-around;
+}
+.flexingBox img
+{
+    width: 20%;
+    
+}
+.firstPara
+{
+    text-align: center;
+    margin: 80px 500px;
+}
+.flexing
+{
+    padding: 80px 0;
+    display: flex;
+    gap: 130px;
+}
+.littleFlex
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+.flexingStart
+{
+    padding: 10px;
+    display: flex;
+    gap: 150px;
+}
+.littleFlexStart
+{
+    display: flex;
+    flex-direction: column;   
+}
+.littleFlex a
+{
+    background-color: #a2c0be;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 45px;
+    border-radius: 40px;
+    
+
+}
+.flexingStart a
+{
+    background-color: #a2c0be;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    border-radius: 40px;
+    margin: 0px 150px 0px 0px;
+    text-align: center;
+    
+}
+.littleFlex p 
+{
+    text-align: justify;
+}
+.littleFlexStart p 
+{
+    text-align: justify;
+}
+.firstPara h2
+{
+    font-size: 2em;
+}
+.firstPara p
+{
+    font-size: 1.2em;
+}
+h3
+{
+    font-size: 2em;
+}
+.container 
+{
+    width: 45%;
+    margin: auto;
+}
+.flexing img
+{
+    width: 350px;
+    height: 245px;
+    box-shadow: 5px 5px 2px 1px #a2c0be;
+}
+.flexingStart img
+{
+    width: 350px;
+    height: 245px;
+    box-shadow: 5px 5px 2px 1px #a2c0be;
+}
+footer
+{
+    background-color: #2d3436;
+    padding: 30px 0;
+}
+footer p 
+{
+    color: white;
+    text-align: center;
+}
